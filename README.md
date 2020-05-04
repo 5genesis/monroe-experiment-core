@@ -6,7 +6,7 @@ The rationale behind this repo/package is to allow monroe (with minimal dependen
 
 ## Howto install a MonroeVN (quick version)
 1. Install a fresh debian stretch (with defaults)
-2. (as root):  ```apt install -y curl && curl -fsSL https://raw.githubusercontent.com/MONROE-PROJECT/monroe-experiment-core/ReleaseA/get-monroe-release-a.sh -o get-monroe-release-a.sh && sh get-monroe-release-a.sh```
+2. (as root):  ```apt install -y curl && curl -fsSL https://raw.githubusercontent.com/5genesis/monroe-experiment-core/ReleaseA/get-monroe-release-a.sh -o get-monroe-release-a.sh && sh get-monroe-release-a.sh```
 
 ## Howto Build (need to have docker,bash and internet connection)
 1. clone this repo
@@ -31,8 +31,8 @@ Needed if want to schedule (ie run/control) experiments from a external station.
 For a publically available node the API key needs to be changed!
 #### 4.1 Install TAP/Rest API scheduler from apt-repo
 * ```apt install monroe-tap-agent```
-#### 4.2 Install TAP/Rest API scheduler from [source](https://github.com/MONROE-PROJECT/monroe-experiment-core/blob/master/schedulers/tap-agent/)
-* See: https://github.com/MONROE-PROJECT/monroe-experiment-core/blob/master/schedulers/tap-agent/README.md
+#### 4.2 Install TAP/Rest API scheduler from [source](https://github.com/5genesis/monroe-experiment-core/blob/master/schedulers/tap-agent/)
+* See: https://github.com/5genesis/monroe-experiment-core/blob/master/schedulers/tap-agent/README.md
 
 ## Run a experiment and check so it works
 1. create a test.conf in /experimenst/user/
@@ -43,7 +43,6 @@ For a publically available node the API key needs to be changed!
 6. execute ```monroe-sync-experiments``` # check that all files are synched and that the experiement is cleanued up.
 
 ## TODO (both near time and moonshots)
-* See what is requried to make it install on Ubuntu 18.04 LTS (do we depend on ifupdown anywhere in the code)
 * Remove/rework dependency on circle and table-allocator (ie make optional or remove binary components)
 * Create a full plugin system with hooks into the main scripts (container-deploy/start/stop)
 * Re-integerate current functionality as plugins (vm and neat support)
