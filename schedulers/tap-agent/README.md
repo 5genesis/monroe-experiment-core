@@ -9,7 +9,7 @@ To deploy, start, stop and get the experiment results a valid api key is needed,
 2. ```./build.sh```
 
 ## Howto install 
-1. Install Debian Stretch and monroe-experiment-core > 0.2.0 (https://github.com/MONROE-PROJECT/monroe-experiment-core)
+1. Install Debian Stretch and monroe-experiment-core > 0.2.0 (https://github.com/5genesis/monroe-experiment-core/edit/ReleaseA/)
 2. ```apt install ./monroe-tap-agent*.deb```
 
 ## Endpoints : 
