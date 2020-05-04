@@ -1,6 +1,8 @@
 # monroe-experiment-core
 MONROE as a package (MaaP).
 
+The 5Genesis fork (this repo) contains tested snapshots aka Releases of the [Monroe develop repo](https://github.com/MONROE-PROJECT/monroe-experiment-core). 
+
 ## Rationale
 The rationale behind this repo/package is to allow monroe (with minimal dependencys) to be installed on a fresh Debian installation.
 
