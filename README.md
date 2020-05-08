@@ -34,7 +34,7 @@ For a publically available node the API key needs to be changed!
 #### 4.1 Install TAP/Rest API scheduler from apt-repo
 * ```apt install monroe-tap-agent```
 #### 4.2 Install TAP/Rest API scheduler from [source](https://github.com/5genesis/monroe-experiment-core/blob/master/schedulers/tap-agent/)
-* See: https://github.com/5genesis/monroe-experiment-core/blob/master/schedulers/tap-agent/README.md
+* See: https://github.com/5genesis/monroe-experiment-core/tree/ReleaseA/schedulers/tap-agent
 
 ## Run a experiment and check so it works
 1. create a test.conf in /experimenst/user/
