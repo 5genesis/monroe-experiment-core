@@ -6,7 +6,7 @@ The 5Genesis fork (this repo) contains tested snapshots aka Releases of the [Mon
 ## Rationale
 The rationale behind this repo/package is to allow monroe (with minimal dependencys) to be installed on a fresh Debian installation.
 
-## Howto install a MonroeVN (quick version)
+## How to install a MONROE VN (quick version)
 1. Install a fresh debian stretch (with defaults)
 2. (as root):  ```apt install -y curl && curl -fsSL https://raw.githubusercontent.com/5genesis/monroe-experiment-core/ReleaseA/get-monroe-release-a.sh -o get-monroe-release-a.sh && sh get-monroe-release-a.sh```
 
